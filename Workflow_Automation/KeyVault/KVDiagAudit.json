@@ -33,7 +33,7 @@
           ],
           "logs": [
             {
-              "category": "AuditEvent",
+              "category": "allLogs",
               "enabled": true,
               "retentionPolicy": {
                 "enabled": false,
