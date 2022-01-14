@@ -17,7 +17,7 @@
       {
         "type": "Microsoft.KeyVault/vaults/providers/diagnosticSettings",
         "apiVersion": "2017-05-01-preview",
-        "name": "[concat(parameters('resourceName'), '/', 'Microsoft.Insights/DiagnosticSettings_workspace')]",
+        "name": "[concat(parameters('resourceName'), '/', 'Microsoft.Insights/operational_logs_and_metrics')]",
         "dependsOn": [],
         "properties": {
           "workspaceId": "[parameters('logAnalytics')]",
